@@ -1,0 +1,40 @@
+11-12-2020 @ 18:34:39 - Creating Instamojo Order for order id: 1870
+11-12-2020 @ 18:34:39 - Client ID: testxxxxxxxxxx | Client Secret: testxxxxxxxxxx | Testmode: 1 
+11-12-2020 @ 18:34:39 - Data sent for creating order Array
+(
+    [name] => Faizur Rahman
+    [email] => faizur11786@gmail.com
+    [phone] => 8051610901
+    [amount] => 50
+    [currency] => INR
+    [redirect_url] => http://localhost/giftshop
+    [transaction_id] => 1605206079-1870
+)
+
+11-12-2020 @ 18:34:40 - Response from server on creating orderstdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => 3874b1b3eaac441fa94f8dbc34358098
+            [transaction_id] => 1605206079-1870
+            [status] => pending
+            [currency] => INR
+            [amount] => 50.00
+            [name] => Faizur Rahman
+            [email] => faizur11786@gmail.com
+            [phone] => +918051610901
+            [description] => Instapay
+            [redirect_url] => http://localhost/giftshop
+            [webhook_url] => 
+            [created_at] => 2020-11-12T18:34:40.400481Z
+            [resource_uri] => https://test.instamojo.com/v2/gateway/orders/id:3874b1b3eaac441fa94f8dbc34358098/
+            [customer_id] => 
+        )
+
+    [payment_options] => stdClass Object
+        (
+            [payment_url] => https://test.instamojo.com/@faizur11786/3874b1b3eaac441fa94f8dbc34358098?embed=form
+        )
+
+)
+
